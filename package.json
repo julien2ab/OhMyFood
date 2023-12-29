@@ -1,0 +1,22 @@
+{
+  "name": "openclassroomsprojet4",
+  "version": "1.0.0",
+  "description": "Mon projet OpenClassRooms 4",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch styles.scss styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/julien2ab/OpenClassroomsProjet4.git#main"
+  },
+  "author": "Julien Joubert",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/julien2ab/OpenClassroomsProjet4/issues"
+  },
+  "homepage": "https://github.com/julien2ab/OpenClassroomsProjet4/tree/main#readme",
+  "devDependencies": {
+    "sass": "^1.69.6"
+  }
+}
