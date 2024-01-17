@@ -2,6 +2,9 @@
 @use "../utils/colors";
 @use "../utils/mixins";
 
+#homepage{
+
+
 .menus {
   background-color: #f6f6f6;
   margin-bottom: 2rem;
@@ -36,6 +39,7 @@
       height: 15rem;
       border-radius: 1rem 1rem 0 0;
       background-size: cover;
+      background-position: center;
     }
     @for $i from 1 through 4 {
       &__image-#{$i} {
@@ -43,25 +47,12 @@
       }
     }
     &__description {
-      position: relative;
-      background-color: white;
-      border-radius: 0 0 1rem 1rem;
-      &::before {
-        @include mixins.heart;
-      }
-      &::after {
-        @include mixins.heart($opacity: 0, $font-weight: 900,
-        $color: transparent);
-        @include mixins.gradient(1);
-      }
-      &:hover::after {
-        opacity: 1;
-        transform: translateY(-50%) scale(1.1);
-      }
+      @include mixins.heart-animated;
       h3,
       p {
         padding: 0.3rem;
       }
     }
   }
+}
 }
