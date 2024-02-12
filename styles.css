@@ -212,16 +212,16 @@ header {
   background-position: center;
 }
 #homepage .menus .card__image-1 {
-  background-image: url(../../Restaurants/menu-1.jpg);
+  background-image: url(../assets/Images_et_textes_Ohmyfood/images/restaurants/menu-1.jpg);
 }
 #homepage .menus .card__image-2 {
-  background-image: url(../../Restaurants/menu-2.jpg);
+  background-image: url(../assets/Images_et_textes_Ohmyfood/images/restaurants/menu-2.jpg);
 }
 #homepage .menus .card__image-3 {
-  background-image: url(../../Restaurants/menu-3.jpg);
+  background-image: url(../assets/Images_et_textes_Ohmyfood/images/restaurants/menu-3.jpg);
 }
 #homepage .menus .card__image-4 {
-  background-image: url(../../Restaurants/menu-4.jpg);
+  background-image: url(../assets/Images_et_textes_Ohmyfood/images/restaurants/menu-4.jpg);
 }
 #homepage .menus .card__description {
   position: relative;
