@@ -4,8 +4,7 @@
   "description": "Mon projet OpenClassRooms 4",
   "main": "index.js",
   "scripts": {
-    "sass": "sass --watch styles.scss styles.css",
-    "build": "postcss styles.css -u autoprefixer cssnano -o ./build/styles.min.css"
+    "sass": "sass --watch styles.scss styles.css"
   },
   "repository": {
     "type": "git",
